@@ -1,11 +1,14 @@
+"use client"
 // App.js
-import Navbar from "./components/navbar";;
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
 
 const Principal = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <div> 
+      <Header />
+      <Sidebar />
+         </div>
   );
 }
 
