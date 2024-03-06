@@ -1,9 +1,8 @@
-import Body from "./Body";
 
 const Sidebar = () => {
   return (
-    <div class="flex flex-row min-h-screen bg-gray-100 col-span-2">
-      <div class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-96 hover:bg-white hover:shadow-lg">
+    <div class="bg-white col-span-1 sticky top-0">
+      <div class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-white hover:shadow-lg">
         <div class="flex h-screen flex-col justify-between pt-2 pb-6">
           <div>
             <ul class="mt-6 space-y-2 tracking-wide">
@@ -52,7 +51,7 @@ const Sidebar = () => {
                       d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"
                     />
                   </svg>
-                  <span class="group-hover:text-gray-700">Categories</span>
+                  <span class="group-hover:text-gray-700">Regimenes</span>
                 </a>
               </li>
               <li class="min-w-max">
@@ -77,7 +76,7 @@ const Sidebar = () => {
                       d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
                     />
                   </svg>
-                  <span class="group-hover:text-gray-700">Reports</span>
+                  <span class="group-hover:text-gray-700">Rutinas</span>
                 </a>
               </li>
               <li class="min-w-max">
@@ -100,7 +99,7 @@ const Sidebar = () => {
                       d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"
                     />
                   </svg>
-                  <span class="group-hover:text-gray-700">Other data</span>
+                  <span class="group-hover:text-gray-700">Videos</span>
                 </a>
               </li>
               <li class="min-w-max">
@@ -152,7 +151,7 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-        <Body />
+
     </div>
   );
 };
