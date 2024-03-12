@@ -1,8 +1,8 @@
 
 const Sidebar = () => {
   return (
-    <div class="bg-white col-span-1 sticky top-0">
-      <div class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-white hover:shadow-lg">
+    <div class="bg-white col-span-1 z-10">
+      <div class="sidebar sticky top-0 min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-white hover:shadow-lg">
         <div class="flex h-screen flex-col justify-between pt-2 pb-6">
           <div>
             <ul class="mt-6 space-y-2 tracking-wide">

@@ -6,7 +6,7 @@ import Body from "./components/Body";
 
 const Principal = () => {
   return (
-    <div className="grid grid-cols-6">
+    <div className="grid grid-cols-6 relative">
       <Header />
       <Sidebar />
       <Body />
