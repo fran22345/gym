@@ -2,7 +2,7 @@
 
 function Body() {
   return (
-    <section className="col-span-5 relative left-20">
+    <section className="col-span-5 left-20" >
       <div>
         <div class="grid grid-cols-3 gap-4">
           <div class="p-6">
