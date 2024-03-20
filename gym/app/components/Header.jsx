@@ -1,16 +1,19 @@
+"use client";
 
-'use client';
-
-import { Button, Navbar } from 'flowbite-react';
+import { Button, Navbar } from "flowbite-react";
 
 function Header() {
   return (
-    <Navbar fluid rounded className='sticky top-0'>
+    <Navbar
+      fluid
+      rounded
+      className="sticky top-0 border border-b-gray-200 shadow-md"
+    >
       <Navbar.Brand href="#">
-    <div>Bienvenido</div>
+        <div>Bienvenido</div>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+        <Button href="../pages/login">Login</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
