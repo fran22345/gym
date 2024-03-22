@@ -1,5 +1,4 @@
 "use client";
-import GoogleButton from "../../components/GoogleButton";
 
 function Login() {
   return (
@@ -76,7 +75,6 @@ function Login() {
           <div class = "grid-span-1 border-b-2 border-gray-300"></div>
           <div class = "grid-span-1 border-x-2"><p class = "text-center">o</p></div>
           <div class = "grid-span-1 border-b-2 border-gray-300"></div>
-          <GoogleButton/>
         </div>
       </div>
     </div>
