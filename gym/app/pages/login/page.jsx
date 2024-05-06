@@ -1,4 +1,5 @@
 "use client";
+import Component from "../../components/loging-btn";
 
 function Login() {
   return (
@@ -58,12 +59,7 @@ function Login() {
             </a>
           </div>
 
-          <button
-            type="submit"
-            class="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
-          >
-            Ingresar
-          </button>
+          <Component />
         </form>
 
         <div class="mt-6 text-blue-500 text-center">
@@ -71,10 +67,12 @@ function Login() {
             Registrarme
           </a>
         </div>
-        <div class = "grid grid-cols-3 gap-4">
-          <div class = "grid-span-1 border-b-2 border-gray-300"></div>
-          <div class = "grid-span-1 border-x-2"><p class = "text-center">o</p></div>
-          <div class = "grid-span-1 border-b-2 border-gray-300"></div>
+        <div class="grid grid-cols-3 gap-4">
+          <div class="grid-span-1 border-b-2 border-gray-300"></div>
+          <div class="grid-span-1 border-x-2">
+            <p class="text-center">o</p>
+          </div>
+          <div class="grid-span-1 border-b-2 border-gray-300"></div>
         </div>
       </div>
     </div>
